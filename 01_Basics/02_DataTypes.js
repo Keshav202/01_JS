@@ -27,13 +27,21 @@ console.table([typeof uid, typeof name, typeof logIn, typeof temp, typeof state,
 console.log(ID === ID2)
 
 // Non-Primitive
+// Array
 
 const arrHero = ["ironman", "spiderman", "captainAmerica"];
+
+// Object
 let myObj = {
     name : " keshav",
     age : 20,
     state : "Bihar"
 }
-
 console.log(arrHero)
 console.log(myObj)
+
+// Function
+
+const myFunc = function(){
+    console.log("Hello World");
+}
